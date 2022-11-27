@@ -11,14 +11,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Find the treasure!</h1>
-    <h3>Good luck!</h3>
+    <h1 id="h1">Find the treasure!</h1>
+    <div id="hints">
+        <h3 id="h3">Good luck!
+        </h3>
+        <ul>
+            <li>Boiling lava</li>
+            <li>Fire</li>
+            <li>Hot water</li>
+            <li>Hot springs</li>
+            <li>Warm</li>
+            <li>Windy</li>
+            <li>Ice</li>
+            <li>Ice age</li>
+            <li>The coldest place</li>
+        </ul>
+    </div>
     <div class="game">
         <img id="map" src="treasure/treasureMap.png" alt="" ondragstart="return false;">
         <img id="pirate" src="treasure/pirate.png" alt="" ondragstart="return false;" >
+        <img id="Clad" src="Клад1.gif" alt="" ondragstart="return false;" >
     </div>
+    <a href="#/" id="Newgame">New game</a>
     <script src="script.js"></script>
 </body>
 </html>
 <!-- Домашнее задание: -->
-<!-- 1.Когда ты кликаешь на карту в h3 выводится слово:Hot -->
